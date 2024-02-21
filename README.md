@@ -1,73 +1,86 @@
-# Fullstack Notion Clone: Next.js 13, React, Convex, Tailwind | Full Course 2023
+## Fullstack Notion Clone: Next.js 13, React, Convex, Tailwind
 
-![Copy of Copy of Copy of Fullstack Twitter Clone (6)](https://github.com/AntonioErdeljac/notion-clone-tutorial/assets/23248726/66bcfca3-93bf-4aa4-950d-f98c020e1156)
+![Notion Clone Preview](preview.png)
 
+This repository houses a full-stack Notion Clone built with Next.js 13, React, Convex, and Tailwind.
 
-This is a repository for Fullstack Notion Clone: Next.js 13, React, Convex, Tailwind | Full Course 2023
+### Key Features
 
-[VIDEO TUTORIAL](https://www.youtube.com/watch?v=ZbX4Ok9YX94)
-
-Key Features:
-
-- Real-time database  🔗 
-- Notion-style editor 📝 
-- Light and Dark mode 🌓
-- Infinite children documents 🌲
-- Trash can & soft delete 🗑️
-- Authentication 🔐 
-- File upload
-- File deletion
-- File replacement
-- Icons for each document (changes in real-time) 🌠
-- Expandable sidebar ➡️🔀⬅️
-- Full mobile responsiveness 📱
-- Publish your note to the web 🌐
-- Fully collapsable sidebar ↕️
-- Landing page 🛬
-- Cover image of each document 🖼️
-- Recover deleted files 🔄📄
+- **Real-time database**: Utilizing real-time database functionality for seamless updates.
+- **Notion-style editor**: A user-friendly editor reminiscent of Notion's interface.
+- **Light and Dark mode**: Switch between light and dark themes for personalized viewing.
+- **Infinite children documents**: Capability to create a hierarchical structure of documents.
+- **Trash can & soft delete**: Implementing a trash can feature for soft deletes.
+- **Authentication**: Secure user authentication for data privacy.
+- **File management**: Including functionalities for file upload, deletion, and replacement.
+- **Dynamic icons**: Icons dynamically change for each document, updating in real-time.
+- **Expandable sidebar**: Easily navigate with a collapsible sidebar.
+- **Full mobile responsiveness**: Ensuring smooth user experience across devices.
+- **Publish to web**: Capability to publish notes to the web for sharing.
+- **Collapsible sidebar**: Sidebar collapses fully for an unobstructed view.
+- **Landing page**: A welcoming landing page for user interaction.
+- **Document cover images**: Add cover images to documents for visual appeal.
+- **File recovery**: Ability to recover deleted files.
 
 ### Prerequisites
 
-**Node version 18.x.x**
+Ensure you have Node.js version 18.x.x installed on your system.
 
-### Cloning the repository
-
-```shell
-git clone https://github.com/AntonioErdeljac/notion-clone-tutorial.git
-```
-
-### Install packages
+### Cloning the Repository
 
 ```shell
-npm i
+git clone https://github.com/mpv33/notion-clone-nextjs.git
 ```
 
-### Setup .env file
+### Installing Packages
 
+```shell
+npm install
+```
 
-```js
-# Deployment used by `npx convex dev`
+### Setting up Environment Variables
+
+Ensure you set up the `.env` file with the following variables:
+
+```dotenv
+# Convex Deployment Configuration
 CONVEX_DEPLOYMENT=
 NEXT_PUBLIC_CONVEX_URL=
 
+# Clerk Authentication Configuration
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
 
+# Edge Store Configuration
 EDGE_STORE_ACCESS_KEY=
 EDGE_STORE_SECRET_KEY=
 ```
 
-### Setup Convex
+### Setting up Convex
+
+Run the following command to set up Convex:
 
 ```shell
 npx convex dev
-
 ```
 
-### Start the app
+### Starting the Application
+
+To start the application, run:
 
 ```shell
 npm run dev
 ```
-# notion-clone-nextjs
+
+## Project Structure
+
+```
+notion-clone-nextjs/
+├── components/          # React components
+├── pages/               # Next.js pages
+├── public/              # Public assets
+├── styles/              # CSS styles
+└── ...
+```
+
+---
