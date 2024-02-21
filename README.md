@@ -4,6 +4,7 @@
 
 This repository houses a full-stack Notion Clone built with Next.js 13, React, Convex, and Tailwind.
 
+## Live: https://notion-mateshwari.vercel.app/
 ### Key Features
 
 - **Real-time database**: Utilizing real-time database functionality for seamless updates.
